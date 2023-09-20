@@ -1,0 +1,122 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper{
+        max-width: 1026px;
+        margin: 0 auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* border: 1px solid black; */
+    }
+    .main-menu{
+        margin: 10px 0;
+        height: 40px;
+        font-size: 18px;
+        line-height: 41px;
+    }
+    .main-menu img{
+        float: left;
+        margin-left: 40px;
+    }
+    .main-menu nav{
+        float: right;
+    }
+    .main-menu ul li{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .main-menu ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+    }
+    .main-menu p{
+        float: right;
+        margin-left: 20px;
+        font-weight: 700;
+    }
+    .banner{
+        background-image: url("img/banner.png");
+        height: 271px;
+    }
+    /* brands */
+    h3{
+        text-align: center;
+        text-transform: uppercase;
+        margin: 50px 0 43px 0;
+    }
+    .brands .content, .clock .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .brands .content div{
+        width: 155px;
+        height: 155px;
+        border: 1px solid black;
+    }
+    /* clock */
+    .clock .content div{
+        border: 1px solid black;
+        border-radius: 13px;
+        width: 233px;
+        height: 330px;
+        text-align: center;
+        font-size: 14pt;
+    }
+    .clock .content div img{
+        margin-top: 10px;
+    }
+    .clock .content div p:nth-child(2){
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .clock .content div p:nth-child(4){
+        color: #8A0000;
+    }
+    .main-form {
+        background-color: #630000;
+        color: white;
+        width: 1028px;
+        height: 274px;
+        box-sizing: border-box;
+    }
+    .main-form h3{
+        padding-top: 79px;
+        padding-left: 66px;
+        text-align: left; 
+    }
+    .main-form p{
+        padding-left: 66px;
+    }
+    .main-form form{
+        padding-left: 66px;
+    }
+    .main-form form input{
+        width: 279px;
+        height: 45px;
+        border-radius: 5px;
+        border: none;
+    }
+    .main-form form button {
+        width: 279px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        width: 1025px; 
+        height: 79px;
+        margin-top: 35px;
+    }
+    footer p{
+        text-align: center;
+        font-weight: 500;
+        padding: 31px;
+    }
